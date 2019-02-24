@@ -1,0 +1,10 @@
+{
+  "number": 1,
+  "string": "homework1",
+  "boolean": true,
+  "object": {
+    "name": "jsonObject",
+    "description": "data types"
+  },
+  "null": null
+}
