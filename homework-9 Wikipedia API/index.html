@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework 9</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Wikipedia searcher</h1>
+  <div id="container">
+    <form id="form">
+      <input type="text" id="search" placeholder="Search">
+      <div class="buttons">
+        <button type="button" id="searchBtn" class="button">Search</button>
+        <button type="button" id="resetBtn" class="button">Reset</button>
+      </div>
+      <p class="random"><a id="random" href="#">Generate 5 random articles.</a></p>
+    </form>
+    <br /> 
+  </div>
+  <div id="results"></div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

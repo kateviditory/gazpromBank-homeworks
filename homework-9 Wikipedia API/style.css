@@ -1,0 +1,53 @@
+body {
+  background: #f1f2f3;
+}
+
+h1 {
+  color: #0c5c8d;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#container {
+  background: #8aa630;
+}
+
+#search {
+ width: 100%;
+ font-size: 28px;
+ color:#495057 !important;
+}
+
+#results {
+  background: #FFF;
+  margin-top: 25px;
+  padding-top: 1px;
+}
+
+.random {
+  width: 100%;
+}
+
+#random {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #0c5c8d !important;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button {
+  font-size: 16px;
+  min-width: 100px;
+  margin-top: 10px;
+  color:#495057 !important;
+}
